@@ -1,4 +1,4 @@
-# Object Detection Project
+# Object Detection
 ## DSC 333 - Cloud Services for Data Science
 
 This repo includes code for a server and a test client:
