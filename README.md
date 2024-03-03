@@ -4,7 +4,7 @@
 This repo includes code for a server and a test client:
 
 Server side (od-api):
-Define an API (single post method /classify/) that uses Google Vision API 
+Define an API (single post method /detect/) that uses Google Vision API 
 to detect objects and text contained in a jpg file uploaded from a client.  
 See comments in od-api/main.py for installation requirements and instructions
 for accessing using a CURL command instead of the Python client included 
