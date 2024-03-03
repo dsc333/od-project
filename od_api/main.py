@@ -41,8 +41,8 @@ async def object_detect(uploaded_file: UploadFile):
     objects = client.object_localization(image=image).localized_object_annotations
     print(f"Number of objects found: {len(objects)}")
     response['objects'] = {}
-    for object_ in objects:
-        response['objects'][object_.name] = f"{object_.score:0.2f}" 
+    for idx, object_ in enumerate(objects):
+        response['objects'][f"{object_.name}_{idx}"] = f"{object_.score:0.2f}" 
         print(f"{object_.name} (confidence: {object_.score:0.2f})")
 
     # Text detection
