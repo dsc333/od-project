@@ -6,8 +6,15 @@ Sample app using picam2
 https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/0
 
 NOTES:
-Do not create a virtual environment to run the client.  
-install requests: pip3 install requests
+
+To run ON RPI:
+Do NOT create a virtual environment to run the client as it interferes with the 
+camera packages.  Just install requests: 
+    pip3 install requests
+
+To run on local computer:
+Create a virtual environment and install requests:
+    pip3 install requests
 '''
 from picamera2 import Picamera2
 import requests
