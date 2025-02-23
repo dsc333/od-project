@@ -15,8 +15,8 @@ GCP requirement:
 Before running, go to the Google Vision API menu in the GCP console
 and enable the API
 
-Python requirements (create a Python virtual environment):
-google-cloud-vision==3.4.2, fastapi, uvicorn, python-multipart
+Python requirements (create a Python virtual environment first):
+   pip3 install -r requirements.txt
 '''
 
 from fastapi import FastAPI, File, UploadFile
