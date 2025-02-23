@@ -1,7 +1,9 @@
 # Object Detection
 ## DSC 333 - Cloud Services for Data Science
 
-This repo includes code for a server and a test client:
+This repo includes code for a server and a test client.  You'll need to clone it 
+to both your server (VM on GCP) and client (RPI or Local computer).  On the server 
+side, you will just run the code in od-api, and on the client od-client.  
 
 ### Server side (od-api):
 Defines an API (single post method /detect/) that uses Google Vision API 
